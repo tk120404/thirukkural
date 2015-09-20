@@ -1,0 +1,109 @@
+[
+  {
+    "tamil": "திருக்குறள்",
+    "section": {
+      "tamil": "பால்",
+      "detail": [
+        {
+          "name": "அறத்துப்பால்",
+          "transliteration": "Araththuppaal",
+          "translation": "Virtue",
+          "chapterGroup": {
+            "tamil": "இயல்",
+            "detail": [
+              {
+                "name": "பாயிரவியல்",
+                "transliteration": "Paayiraviyal",
+                "translation": "Prologue",
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "number": 1,
+                      "name": "கடவுள் வாழ்த்து",
+                      "transliteration": "Katavul Vaazhththu",
+                      "translation": "The Praise of God",
+                      "start": 1,
+                      "end": 10
+                    },
+                    {
+                      "number": 2,
+                      "name": "வான்சிறப்பு",
+                      "transliteration": "Vaansirappu",
+                      "translation": "The Blessing of Rain",
+                      "start": 11,
+                      "end": 20
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "இல்லறவியல்",
+                "transliteration": "Paayiraviyal",
+                "translation": "Illaraviyal",
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "number": 5,
+                      "name": "இல்வாழ்க்கை",
+                      "transliteration": "Ilvaazhkkai",
+                      "translation": "Domestic Life",
+                      "start": 41,
+                      "end": 50
+                    },
+                    {
+                      "number": 6,
+                      "name": "வாழ்க்கைத் துணைநலம்",
+                      "transliteration": "Vaazhkkaith Thunainalam",
+                      "translation": "The Worth of a Wife",
+                      "start": 51,
+                      "end": 60
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "பொருட்பால்",
+          "transliteration": "Porutpaal",
+          "translation": "Wealth",
+          "chapterGroup": {
+            "tamil": "இயல்",
+            "detail": [
+              {
+                "name": "அரசியல்",
+                "transliteration": "Arasiyal",
+                "translation": "Royalty",
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "number": 390,
+                      "name": "இறைமாட்சி",
+                      "transliteration": "Iraimaatchi",
+                      "translation": "The Greatness of a King",
+                      "start": 381,
+                      "end": 390
+                    },
+                    {
+                      "number": 40,
+                      "name": "கல்வி",
+                      "transliteration": "Kalvi",
+                      "translation": "Learning",
+                      "start": 391,
+                      "end": 400
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "repo": "http://github.com/tk120404/thirukkural"
+  }
+]
