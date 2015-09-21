@@ -33,14 +33,30 @@
                       "translation": "The Blessing of Rain",
                       "start": 11,
                       "end": 20
+                    },
+                    {
+                      "number": 3,
+                      "name": "நீத்தார் பெருமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 21,
+                      "end": 30
+                    },
+                    {
+                      "number": 4,
+                      "name": "அறன் வலியுறுத்தல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 31,
+                      "end": 40
                     }
                   ]
                 }
               },
               {
                 "name": "இல்லறவியல்",
-                "transliteration": "Paayiraviyal",
-                "translation": "Illaraviyal",
+                "transliteration": "Illaraviyal",
+                "translation": "Domestic Virtue",
                 "chapters": {
                   "tamil": "அதிகாரம்",
                   "detail": [
@@ -59,6 +75,264 @@
                       "translation": "The Worth of a Wife",
                       "start": 51,
                       "end": 60
+                    },
+                    {
+                      "name": "மக்கட்பேறு",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 61,
+                      "end": 70,
+                      "number": 7
+                    },
+                    {
+                      "name": "அன்புடைமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 71,
+                      "end": 80,
+                      "number": 8
+                    },
+                    {
+                      "name": "விருந்தோம்பல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 81,
+                      "end": 90,
+                      "number": 9
+                    },
+                    {
+                      "name": "இனியவை கூறல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 91,
+                      "end": 100,
+                      "number": 10
+                    },
+                    {
+                      "name": "செய்ந்நன்றி அறிதல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 101,
+                      "end": 110,
+                      "number": 11
+                    },
+                    {
+                      "name": "நடுவுநிலைமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 111,
+                      "end": 120,
+                      "number": 12
+                    },
+                    {
+                      "name": "அடக்கம் உடைமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 121,
+                      "end": 130,
+                      "number": 13
+                    },
+                    {
+                      "name": "ஒழுக்கம் உடைமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 131,
+                      "end": 140,
+                      "number": 14
+                    },
+                    {
+                      "name": "பிறன் இல் விழையாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 141,
+                      "end": 150,
+                      "number": 15
+                    },
+                    {
+                      "name": "பொறை உடைமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 151,
+                      "end": 160,
+                      "number": 16
+                    },
+                    {
+                      "name": "அழுக்காறாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 161,
+                      "end": 170,
+                      "number": 17
+                    },
+                    {
+                      "name": "வெஃகாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 171,
+                      "end": 180,
+                      "number": 18
+                    },
+                    {
+                      "name": "புறங்கூறாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 181,
+                      "end": 190,
+                      "number": 19
+                    },
+                    {
+                      "name": "பயனில சொல்லாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 191,
+                      "end": 200,
+                      "number": 20
+                    },
+                    {
+                      "name": "தீவினை அச்சம்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 201,
+                      "end": 210,
+                      "number": 21
+                    },
+                    {
+                      "name": "ஒப்புரவு அறிதல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 211,
+                      "end": 220,
+                      "number": 22
+                    },
+                    {
+                      "name": "ஈகை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 221,
+                      "end": 230,
+                      "number": 23
+                    },
+                    {
+                      "name": "புகழ்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 231,
+                      "end": 240,
+                      "number": 24
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "துறவறவியல்",
+                "transliteration": "Thuravaraviyal",
+                "translation": "Ascetic Virtue",
+                "chapters": {
+                  "tamil": "அதிகாரம்",
+                  "detail": [
+                    {
+                      "name": "அருள் உடைமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 241,
+                      "end": 250,
+                      "number": 25
+                    },
+                    {
+                      "name": "புலால் மறுத்தல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 251,
+                      "end": 260,
+                      "number": 26
+                    },
+                    {
+                      "name": "தவம்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 261,
+                      "end": 270,
+                      "number": 27
+                    },
+                    {
+                      "name": "கூடா ஒழுக்கம்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 271,
+                      "end": 280,
+                      "number": 28
+                    },
+                    {
+                      "name": "கள்ளாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 281,
+                      "end": 290,
+                      "number": 29
+                    },
+                    {
+                      "name": "வாய்மை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 291,
+                      "end": 300,
+                      "number": 30
+                    },
+                    {
+                      "name": "வெகுளாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 301,
+                      "end": 310,
+                      "number": 31
+                    },
+                    {
+                      "name": "இன்னா செய்யாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 311,
+                      "end": 320,
+                      "number": 32
+                    },
+                    {
+                      "name": "கொல்லாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 321,
+                      "end": 330,
+                      "number": 33
+                    },
+                    {
+                      "name": "நிலையாமை",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 331,
+                      "end": 340,
+                      "number": 34
+                    },
+                    {
+                      "name": "துறவு",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 341,
+                      "end": 350,
+                      "number": 35
+                    },
+                    {
+                      "name": "மெய் உணர்தல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 351,
+                      "end": 360,
+                      "number": 36
+                    },
+                    {
+                      "name": "அவா அறுத்தல்",
+                      "translation": "",
+                      "transliteration": "",
+                      "start": 361,
+                      "end": 370,
+                      "number": 37
                     }
                   ]
                 }
