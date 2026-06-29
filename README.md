@@ -1,23 +1,32 @@
-# thirukkural
-##
-The Tirukkuṛaḷ is a classic Tamil sangam literature consisting of 1330 couplets or Kurals. It was authored by Thiruvalluvar. With this repo we are trying to provide Thirukkural as json. திருக்குறள்
+# Thirukkural
 
-[thirukkural.json](https://github.com/tk120404/thirukkural/blob/master/thirukkural.json) has got all the kurals but we need to add the narratives of
-* டாக்டர் மு.வரதராசனார்
-* மு. கருணாநிதி
-* சாலமன் பாப்பையா
+The **Tirukkuṛaḷ (திருக்குறள்)** is a timeless classic of Tamil Sangam literature, consisting of **1,330 couplets (Kurals)** authored by **Thiruvalluvar**.
 
-[detail.json](https://github.com/tk120404/thirukkural/blob/master/detail.json) has got the details of the kurals that is
-* அதிகாரம்/Chapter/Adhigaram,
-* இயல்/ChapterGroup/Iyal,
-* பால்/Section/Paal.
+This repository provides the complete **Thirukkural** in a structured **JSON** format for developers, researchers, and Tamil language enthusiasts.
 
-##
-### Please free to fork this and send pull request to add narratives and other details.
+## Files
 
-##
+### `thirukkural.json`
 
-### References
+Contains all **1,330 Kurals**. We are currently working on adding the commentaries (narratives) from:
+
+* டாக்டர் மு. வரதராசனார் (Dr. Mu. Varadarasanar)
+* மு. கருணாநிதி (M. Karunanidhi)
+* சாலமன் பாப்பையா (Solomon Pappaiah)
+
+### `detail.json`
+
+Contains metadata for each Kural, including:
+
+* **அதிகாரம் (Adhigaram)** – Chapter
+* **இயல் (Iyal)** – Chapter Group
+* **பால் (Paal)** – Section
+
+## Contributing
+
+Feel free to **fork** this repository and submit a **pull request** to add commentaries, improve the dataset, or contribute additional details.
+
+## References
 
 * http://www.thirukkural.com/
 * http://www.gokulnath.com/thirukurals
