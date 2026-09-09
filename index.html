@@ -246,12 +246,11 @@
 
     var p = new URLSearchParams(location.search);
     if(p.get("q")) qEl.value = p.get("q");
-    run();
+    // A #kural-N link must open that kural on its own. Scrolling to it would
+    // only work for the first page of results, since later cards aren't in
+    // the DOM yet.
     var m = /^#kural-(\d+)$/.exec(location.hash);
-    if(m) setTimeout(function(){
-      var el = document.getElementById("kural-" + m[1]);
-      if(el) el.scrollIntoView({ block:"center" });
-    }, 80);
+    if(!(m && !p.get("q") && showOne(Number(m[1])))) run();
   }).catch(function(err){
     countEl.textContent = "";
     results.innerHTML = '<div class="empty"><div class="big">Could not load the data.</div>' +
@@ -344,6 +343,24 @@
     }
   }
 
+  // Show a single kural on its own, clearing any active query or filter.
+  // Kural numbers are contiguous 1..1330, so index N-1 is exact.
+  function showOne(n){
+    var k = KURALS[n - 1];
+    if(!k) return false;
+    qEl.value = ""; paal = 0; chapter = ""; chapSel.value = "";
+    var chips = filters.querySelectorAll(".chip");
+    for(var i = 0; i < chips.length; i++){
+      chips[i].setAttribute("aria-pressed", chips[i].dataset.paal === "0" ? "true" : "false");
+    }
+    matches = [k];
+    clearBtn.hidden = true;
+    countEl.innerHTML = "Kural <b>" + n + '</b> — <a href="#" id="showall">show all 1330</a>';
+    render(true);
+    history.replaceState(null, "", location.pathname + "#kural-" + n);
+    return true;
+  }
+
   function run(){
     matches = search();
     var q = qEl.value.trim();
@@ -384,20 +401,19 @@
   });
   $("#rand").addEventListener("click", function(){
     if(!KURALS.length) return;
-    qEl.value = ""; paal = 0; chapter = ""; chapSel.value = "";
-    var all = filters.querySelectorAll(".chip");
-    for(var i = 0; i < all.length; i++){
-      all[i].setAttribute("aria-pressed", all[i].dataset.paal === "0" ? "true" : "false");
-    }
-    var n = 1 + Math.floor(Math.random() * KURALS.length);
-    matches = [KURALS[n - 1]];
-    clearBtn.hidden = true;
-    countEl.innerHTML = "Kural <b>" + n + '</b> — <a href="#" id="showall">show all 1330</a>';
-    render(true);
-    history.replaceState(null, "", "#kural-" + n);
+    showOne(1 + Math.floor(Math.random() * KURALS.length));
   });
   countEl.addEventListener("click", function(e){
-    if(e.target.id === "showall"){ e.preventDefault(); run(); }
+    if(e.target.id === "showall"){
+      e.preventDefault();
+      history.replaceState(null, "", location.pathname);
+      run();
+    }
+  });
+  // Pasting or navigating to a #kural-N link after load.
+  window.addEventListener("hashchange", function(){
+    var m = /^#kural-(\d+)$/.exec(location.hash);
+    if(m) showOne(Number(m[1]));
   });
   document.addEventListener("keydown", function(e){
     if(e.key === "/" && document.activeElement !== qEl){
