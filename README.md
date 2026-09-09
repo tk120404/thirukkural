@@ -2,6 +2,10 @@
 
 The Tirukkuṛaḷ (திருக்குறள்) is a classic work of Tamil Sangam literature consisting of 1330 couplets, or kurals, authored by Thiruvalluvar. This repo provides the Thirukkural as JSON.
 
+**🔍 Search all 1330 kurals → [tk120404.github.io/thirukkural](https://tk120404.github.io/thirukkural/)**
+
+Search runs entirely in the browser over the JSON files in this repo — in Tamil or English, across the couplets, translations, transliterations, and all three commentaries. Filter by பால் or அதிகாரம், and link straight to any kural with `#kural-1330`.
+
 ## thirukkural.json
 
 All **1330 kurals**, numbered contiguously from 1 to 1330, under the `kural` key. Every record has all eleven fields populated — there are no gaps.
@@ -60,6 +64,16 @@ Both files are normalized so that exact-match search, deduplication, and string 
 * All Tamil text is **Unicode NFC** normalized. Without this, visually identical strings compare unequal depending on how the consumer's input is normalized.
 * Whitespace is single-spaced and trimmed — no leading, trailing, or repeated spaces.
 * Where the source text joined two verse lines, they are separated by a single space.
+
+## Running the site locally
+
+`index.html` fetches the JSON files, and browsers block `fetch` over `file://`, so serve the directory rather than opening the file directly:
+
+```
+python3 -m http.server
+```
+
+Then open <http://localhost:8000>. There is no build step and no dependencies.
 
 ## Contributing
 
